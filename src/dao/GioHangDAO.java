@@ -48,15 +48,7 @@ public class GioHangDAO {
 		}
 
 	}
-	// kiểm tra san phâm có trên giỏ hàng chưa
-	public static boolean kiemTraSanPhamCoTrongGioHangChua(String maHang) {
-		for (int i = 0; i < gioHang.size(); i++) {
-			if (gioHang.get(i).getSanPham().getMasanpham().equals(maHang)) {
-				return true;
-			}
-		}
-		return false;
-	}
+	
 	// xem san phẩm đã chọn
 	public static SanPham xemSanPham(String maSanPham) {
 		SanPham sp = null ;
@@ -70,6 +62,15 @@ public class GioHangDAO {
 		return sp;
 	}
 
+// kiểm tra san phâm có trên giỏ hàng chưa
+	public static boolean kiemTraSanPhamCoTrongGioHangChua(String maHang) {
+		for (int i = 0; i < gioHang.size(); i++) {
+			if (gioHang.get(i).getSanPham().getMasanpham().equals(maHang)) {
+				return true;
+			}
+		}
+		return false;
+	}
 	// them vào giỏ hàng
 	public static boolean themVaoGioHang(String maSanPham) {
 		boolean kiemTra = kiemTraSanPhamCoTrongGioHangChua(maSanPham);
@@ -107,7 +108,9 @@ public class GioHangDAO {
 			return false;
 		}
 		
-		// tinh tiền
+		
+
+	// tinh tiền
 		public static int SumDonHang() {
 			int sum = 0;
 			for (int i = 0; i < gioHang.size(); i++) {
