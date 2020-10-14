@@ -30,7 +30,7 @@ public void setDiaChiNhaCungCap(String diaChiNhaCungCap) {
 }
 @Override
 public String toString() {
-	return "NhaCungCap [maNhaCungCap=" + maNhaCungCap + ", tenNhaCungCap=" + tenNhaCungCap + ", diaChiNhaCungCap="
+	return "NhaCungCap [maNhaCungCapHang :" + maNhaCungCap + ", tenNhaCungCap :" + tenNhaCungCap + ", diaChiNhaCungCap :"
 			+ diaChiNhaCungCap + "]";
 }
 }

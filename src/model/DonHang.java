@@ -38,7 +38,7 @@ public void setNgayBan(String ngayBan) {
 }
 @Override
 public String toString() {
-	return "DonHang [maDonHang=" + maDonHang + ", tenTaiKhoan=" + tenTaiKhoan + ", tongGia=" + tongGia + ", ngayBan="
+	return "DonHang [maDonHang :" + maDonHang + ", tenTaiKhoan :" + tenTaiKhoan + ", tongGia :" + tongGia + ", ngayBan :"
 			+ ngayBan + "]";
 }
 
