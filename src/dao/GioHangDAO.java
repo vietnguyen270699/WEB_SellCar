@@ -137,12 +137,5 @@ public class GioHangDAO {
 		GioHangDAO.list = list;
 	}
 
-		public static void main(String[] args) {
-//			System.out.println( new GioHangDAO().getList());
-//			System.out.println(themVaoGioHang("AUDI002"));
-//			System.out.println(themVaoGioHang("AUDI003"));
-//			System.out.println(getGioHang());
-//			System.out.println(xoaSanPhamTrongGioHang("AUDI002"));
-//			System.out.println(getGioHang());
-		}
+	
 }
