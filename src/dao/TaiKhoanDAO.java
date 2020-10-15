@@ -231,11 +231,7 @@ public class TaiKhoanDAO implements IAccountDAO {
 	}
 	
 
-	public static void main(String[] args) {
-		TaiKhoan tk = new TaiKhoan("vietpro11", "viet123", "vietnguyenpro", "Nam", "0963058534", "Bến Tre", "user");
-		// System.out.println(new TaiKhoanDAO().createAccount(tk));
-		// System.out.println(new TaiKhoanDAO().checkAccount("viet111", "viet123"));
-//	System.out.println(new TaiKhoanDAO().checkAccountExits("vietpro111"));
+	
 	}
 
 }
